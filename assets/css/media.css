@@ -1,0 +1,464 @@
+@media (max-width: 1400px) {
+    .w-xxl-1{width: 8.33%;}
+    .w-xxl-2{width: 16.66%;}
+    .w-xxl-3{width: 24.99%;}
+    .w-xxl-4{width:33.33%;}
+    .w-xxl-5{width: 41.67%;}
+    .w-xxl-6{width: 50%;}
+    .w-xxl-7{width: 58.31%;}
+    .w-xxl-8{width:66.64%;}
+    .w-xxl-9{width:74.97%;}
+    .w-xxl-10{width: 83.3%;}
+    .w-xxl-11{width: 91.64%;}
+    .w-xxl-12{width: 100%;}
+
+    /*================================== header start =====================================*/
+    .menu{
+        padding: 0 12px;
+    }
+    /*================================== header end =====================================*/
+
+    /*================================== banner start =====================================*/
+    .banner-content h1{
+        font-size: 70px;
+    }
+    /*================================== banner end =====================================*/
+
+    /*================================== service start =====================================*/
+    .services .p-img{
+        height: 25%;
+    }
+    /*================================== service end =====================================*/
+
+    /*================================== slogan start =====================================*/
+    .slogan .slogan-title h2{
+        font-size: 25px;
+    }
+    /*================================== slogan end =====================================*/
+    
+}
+@media (max-width: 1200px) {
+    .w-xl-1{width: 8.33%;}
+    .w-xl-2{width: 16.66%;}
+    .w-xl-3{width: 24.99%;}
+    .w-xl-4{width:33.33%;}
+    .w-xl-5{width: 41.67%;}
+    .w-xl-6{width: 50%;}
+    .w-xl-7{width: 58.31%;}
+    .w-xl-8{width:66.64%;}
+    .w-xl-9{width:74.97%;}
+    .w-xl-10{width: 83.3%;}
+    .w-xl-11{width: 91.64%;}
+    .w-xl-12{width: 100%;}
+
+    /*================================== header start =====================================*/
+    header{
+        height: 110px;
+        padding: 10px 0;
+    }
+    .menu .logo{
+        display: block;
+        margin: auto;
+    }
+    /*================================== header end =====================================*/
+
+    /*================================== banner start =====================================*/
+    .banner-content h1{
+        padding-top: 170px;
+    }
+    /*================================== banner end =====================================*/
+    .about .request{
+        margin-left: 45%;
+    }
+    /*================================== service start =====================================*/
+    .services .title h2{
+        margin-left: 12px;
+    }
+    .services .title::after{
+        left: 20px;
+    }
+    .services .title::before{
+        left: 14px;
+    }
+    /*================================== service end =====================================*/
+    .projects .title h2{
+        margin-left: 12px;
+    }
+    .projects .title::after{
+        left: 20px;
+    }
+    .projects .title::before{
+        left: 14px;
+    }
+
+    /*================================== slogan start =====================================*/
+    .slogan .slogan-title h2{
+        font-size: 23px;
+    }
+    /*================================== slogan end =====================================*/
+    
+    /*================================== testimonial start =====================================*/
+    .testimonial .t-image{
+        display: block;
+        margin: auto;
+    }
+    .testimonial .client-image{
+        right: 22%;
+    }
+    .testimonial .t-dsc{
+        margin: 0;
+        padding: 0 100px;
+    }
+    .testimonial .t-dsc .loder{
+        position: absolute;
+        bottom: 50px;
+        left: 8%;
+    }
+    /*================================== testimonial end =====================================*/
+
+    /*================================== blog start =====================================*/
+    .blog .title h2{
+        margin-left: 12px;
+    }
+    .blog  .title::after{
+        left: 20px;
+    }
+    .blog  .title::before{
+        left: 14px;
+    }
+    .blog .button{
+        margin-right: 12px;
+    }
+    /*================================== blog end =====================================*/
+
+    /*================================== footer start =====================================*/
+    footer .popular-news .news-box-1{
+        padding-bottom: 20px;
+    }
+    /*================================== footer end =====================================*/
+
+}
+@media (max-width: 992px) {
+    .w-lg-1{width: 8.33%;}
+    .w-lg-2{width: 16.66%;}
+    .w-lg-3{width: 24.99%;}
+    .w-lg-4{width:33.33%;}
+    .w-lg-5{width: 41.67%;}
+    .w-lg-6{width: 50%;}
+    .w-lg-7{width: 58.31%;}
+    .w-lg-8{width:66.64%;}
+    .w-lg-9{width:74.97%;}
+    .w-lg-10{width: 83.3%;}
+    .w-lg-11{width: 91.64%;}
+    .w-lg-12{width: 100%;}
+
+    /*================================== header start =====================================*/
+    .menu ul li{
+        padding: 0 12px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .menu .fa-chevron-right{
+        right: 4px;
+        top: 6px;
+    }
+    .menu .btn .btn-1, .btn .btn-2{
+        margin-right: 8px;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    .menu .btn .btn-2{
+        margin-right: 8px;
+        padding: 3px 10px;
+        font-size: 10px;
+    }
+    /*================================== header end =====================================*/
+
+    /*================================== banner start =====================================*/
+    .banner-content h1{
+        font-size: 58px;
+    }
+    .banner-content h3{
+        font-size: 18px;
+    }
+    .banner-content .button-1{
+        padding: 15px 40px 12px;
+    }
+    .banner-content .button-2{
+        padding: 15px 40px 12px;
+    }
+    /*================================== banner end =====================================*/
+
+    /*================================== about start =====================================*/
+    .about{
+        height: 850px;
+    }
+    .about-img{
+        padding-top: 70px;
+    }
+    .about .request{
+        margin-left: 40%;
+    }
+    /*================================== about end =====================================*/
+
+    /*================================== slogan start =====================================*/
+    .slogan .slogan-title h2{
+        font-size: 18px;
+    }
+    /*================================== slogan end =====================================*/
+    
+    /*================================== working start =====================================*/
+    .working .box .circle{
+        margin-top: 10px;
+    }
+    .working .title{
+        padding: 0 80px 40px;
+    }
+    /*================================== working end =====================================*/
+
+    /*================================== testimonial start =====================================*/
+    .testimonial .client-image{
+        right: 15%;
+    }
+    /*================================== testimonial end =====================================*/
+
+    /*================================== footer start =====================================*/
+    footer .footer-box{
+        padding: 0 50px;
+    }
+    footer .f-box{
+        padding: 30px 0;
+    }
+    footer .popular-news{
+        padding: 30px 0;
+    }
+    footer .news-letter{
+        padding: 30px 0;
+    }
+    /*================================== footer end =====================================*/
+
+}
+@media (max-width: 768px) {
+    .w-md-1{width: 8.33%;}
+    .w-md-2{width: 16.66%;}
+    .w-md-3{width: 24.99%;}
+    .w-md-4{width:33.33%;}
+    .w-md-5{width: 41.67%;}
+    .w-md-6{width: 50%;}
+    .w-md-7{width: 58.31%;}
+    .w-md-8{width:66.64%;}
+    .w-md-9{width:74.97%;}
+    .w-md-10{width: 83.3%;}
+    .w-md-11{width: 91.64%;}
+    .w-md-12{width: 100%;}
+
+    /*================================== header start =====================================*/
+    .menu{
+        justify-content: space-evenly;
+    }
+    .menu .logo{
+        margin: 0;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu .btn-none {
+        display: block;
+    }
+    .menu .btn-none .btn-1, .btn-none .btn-2{
+        margin: 0 0 10px 0;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .menu .bar{
+        display: block;
+    }
+
+    /*================================== header end =====================================*/
+
+    /*================================== banner start =====================================*/
+    .banner-content h1{
+        font-size: 56px;
+    }
+    .banner-content .button-1{
+        padding: 15px 30px 12px;
+    }
+    .banner-content .button-2{
+        padding: 18px 30px 15px;
+    }
+    /*================================== banner end =====================================*/
+
+    /*================================== about start =====================================*/
+    .about-img{
+        padding-top: 100px;
+    }
+    .about{
+        height: 950px;
+    }
+    /*================================== about end =====================================*/
+
+    /*================================== service start =====================================*/
+    .services .card-image{
+        padding-top: 30px;
+    }
+    .services .card h3{
+        font-size: 22px;
+        text-align: center;
+    }
+    .services .card p{
+        text-align: center;
+        font-size: 20px;
+    }
+    /*================================== service end =====================================*/
+
+    /*================================== projects start =====================================*/
+    .projects ul li a{
+        font-size: 18px;
+    }
+    .projects ul li{
+        padding: 0 15px;
+    }
+    /*================================== projects end =====================================*/
+
+    /*================================== slogan start =====================================*/
+    .slogan .slogan-title h2{
+        font-size: 15px;
+    }
+    /*================================== slogan end =====================================*/
+
+    /*================================== testimonial start =====================================*/
+    .testimonial .t-dsc{
+        margin: 0;
+        padding: 0 80px;
+    }
+    .testimonial .t-image-box{
+        padding: 0;
+    }
+    .testimonial .client-image{
+        right: 10%;
+    }
+    .testimonial .title:after{
+        left: 32%;
+    }
+    /*================================== testimonial end =====================================*/
+
+    /*================================== bottom start =====================================*/
+    .bottom-part .copyright{
+        text-align: center;
+    }
+    .bottom-part .footer-menu ul li{
+        padding-right: 5px;
+    }
+    /*================================== bottom end =====================================*/
+
+}
+@media (max-width: 576px) {
+    .w-sm-1{width: 8.33%;}
+    .w-sm-2{width: 16.66%;}
+    .w-sm-3{width: 24.99%;}
+    .w-sm-4{width:33.33%;}
+    .w-sm-5{width: 41.67%;}
+    .w-sm-6{width: 50%;}
+    .w-sm-7{width: 58.31%;}
+    .w-sm-8{width:66.64%;}
+    .w-sm-9{width:74.97%;}
+    .w-sm-10{width: 83.3%;}
+    .w-sm-11{width: 91.64%;}
+    .w-sm-12{width: 100%;}
+
+    /*================================== header start =====================================*/
+    header{
+        padding: 20px 0;
+    }
+    .menu .logo{
+        width: 150px;
+        height: 50px;
+    }
+        .menu .btn-none .btn-1, .btn-none .btn-2{
+        margin: 0 0 10px 0;
+        padding: 5px 8px;
+        text-align: center;
+    }
+    /*================================== header end =====================================*/
+
+    /*================================== banner start =====================================*/
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .banner-content h3{
+        font-size: 15px;
+    }
+    .banner-content .button-1{
+        padding: 15px 15px 12px;
+        margin-right: 5px;
+    }
+    .banner-content .button-2{
+        padding: 16px 15px 13px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    /*================================== banner end =====================================*/
+
+    /*================================== about start =====================================*/
+    .about{
+        height: 1050px;
+    }
+    .about .about-img .img-2{
+        display: none;
+    }
+    .about .about-img .img-1{
+        left: 16%;
+    }
+    .about .request{
+        font-size: 12px;
+        margin-left: 60%;
+    }
+    /*================================== about end =====================================*/
+
+    /*================================== service start =====================================*/
+    .services .card h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .services .card p{
+        text-align: center;
+        font-size: 15px;
+    }
+    /*================================== service end =====================================*/
+
+    /*================================== projects start =====================================*/
+    .projects ul{
+        display: none;
+    }
+    .projects .box-hover{
+        width: 100%;
+        overflow: hidden;
+    }
+    .projects .p-box{
+        display: block;
+        width: 1005;
+    }
+    /*================================== projects end =====================================*/
+
+    /*================================== slogan start =====================================*/
+    .slogan .slogan-title h2{
+        font-size: 10px;
+    }
+    .working .title{
+        padding: 0 10px;
+    }
+    /*================================== slogan end =====================================*/
+    
+    /*================================== testimonial START =====================================*/
+    .testimonial .t-dsc{
+        margin: 0;
+        padding: 0 50px;
+    }
+    .testimonial .t-image-box .t-image{
+        width: 350px;
+        height: 220px;
+    }
+    /*================================== testimonial end =====================================*/
+
+}
