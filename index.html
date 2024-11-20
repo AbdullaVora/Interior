@@ -105,15 +105,15 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <ul class="flex f-wrap align-center">
-                    <li><a href="javascript:void(0);" target="">Home</a></li>
-                    <li><a href="javascript:void(0);" target="">Services</a><i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#home" target="">Home</a></li>
+                    <li><a href="#services" target="">Services</a><i class="fa-solid fa-chevron-right"></i>
                     </li>
-                    <li><a href="javascript:void(0);" target="">About us</a></li>
-                    <li><a href="javascript:void(0);" target="">Projects</a><i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#about" target="">About us</a></li>
+                    <li><a href="#projects" target="">Projects</a><i class="fa-solid fa-chevron-right"></i>
                     </li>
-                    <li><a href="javascript:void(0);" target="">Blog</a></li>
-                    <li><a href="javascript:void(0);" target="">Shop</a><i class="fa-solid fa-chevron-right"></i></li>
-                    <li><a href="javascript:void(0);" target="">Contact us</a></li>
+                    <li><a href="#blog" target="">Blog</a></li>
+                    <li><a href="#brands" target="">Brands</a><i class="fa-solid fa-chevron-right"></i></li>
+                    <li><a href="#contact" target="">Contact us</a></li>
                     <!-- <li><i class="fa fa-shopping-bag carticon"></i></li>
                     <li><i class="icon fa fa-search"></i></li> -->
                     <div class="btn row">
@@ -134,7 +134,7 @@
     <!--==================================== header end =============================-->
 
     <!--==================================== banner start =============================-->
-    <section class="main-banner">
+    <section class="main-banner" id="home">
         <div class="container row align-content">
             <div class="banner-content w-7 w-xl-9 w-lg-9 w-md-12 w-sm-12">
                 <h1>Give Life for <br> your dream<span>&nbsphome</span></h1>
@@ -147,7 +147,7 @@
     <!--==================================== banner end =============================-->
 
     <!--==================================== about start =============================-->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about-box row">
                 <div class="w-6 w-lg-12">
@@ -202,7 +202,7 @@
     <!--==================================== about end =============================-->
 
     <!--==================================== service start =============================-->
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="title">
                 <h2>Services We Do</h2>
@@ -304,7 +304,7 @@
     <!--==================================== service end =============================-->
 
     <!--==================================== Latest Project start =============================-->
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="container">
             <div class="title-subtitle flex f-wrap justify-between">
                 <div class="title">
@@ -548,12 +548,14 @@
                 <div class="w-6 w-xl-12">
                     <div class="t-image-box">
                         <div class="t-image">
-                            <img src="assets/images/lat-pj-2.jpg" alt="">
+                            <img id="slides" src="" alt="">
                         </div>
                         <div class="client-image">
-                            <img src="assets/images/customer.png" alt="">
+                            <img id="client" src="" alt="">
                         </div>
                     </div>
+                    <div class="left-arrow"><i class="fa-solid fa-arrow-left" style="color: #d5ac63; font-size: 40px;" onclick="pre();"></i></div>
+                    <div class="right-arrow"><i class="fa-solid fa-arrow-right" style="color: #d5ac63; font-size: 40px;" onclick="next();"></i></div>
                 </div>
                 <div class="w-6 w-xl-12">
                     <div class="t-dsc">
@@ -581,7 +583,7 @@
     <!--==================================== testimonial end =============================-->
 
     <!--==================================== blog start =============================-->
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="b-title-btn row">
                 <div class="title">
@@ -718,7 +720,7 @@
     <!--==================================== blog end =============================-->
 
     <!--==================================== brand start =============================-->
-    <section class="brand-area">
+    <section class="brand-area" id="brands">
         <div class="container">
             <div class="w-12">
                 <div class="brand-box row justify-evenly">
@@ -744,7 +746,7 @@
     <!--==================================== brand end =============================-->
 
     <!--==================================== footer start =============================-->
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="footer-box row">
                 <div class="w-4 w-lg-12">
@@ -939,6 +941,7 @@
 
     <!-- jquery -->
     <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
